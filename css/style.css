@@ -1,0 +1,191 @@
+body{
+    font-family: cursive;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color:#DBF9FF;
+
+}
+
+/*Global*/
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ ul {
+    padding:0;
+    margin: 0;    
+}
+
+/* header*/
+
+header{
+    background-color: #4076e3; /* or aquamarine*/
+
+}
+
+header #outercontainer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header a :visited{
+    color: green;
+}
+
+header #branding{
+    float: left;
+}
+
+header h1{
+    margin: 0;
+}
+
+header h1, h1 a{
+    color: #000;
+}
+
+nav{
+    margin-top: 10px;
+    float: right;
+}
+
+
+nav li{
+    display: inline;
+    padding: 0px 10px;
+    font-size: 18px;
+    font-style: oblique;
+}
+
+
+header input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 7px ;
+    margin-left: 20px;
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+    
+}
+
+
+/* Section main*/
+
+section#main{
+    background:url('../img/beach.jpg') 0 1000px;
+    /*min-height: 500px;*/
+}
+
+
+#greeting{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom:  0px;
+
+}
+
+
+.poem{
+    /* add opaqui*/
+    font-stretch: semi-expanded;
+    float: left;
+    width: 45%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 20px;
+    border: 3px solid aqua;
+    border-radius: 50px;
+    margin: 4% 2%;
+    /*line-height: 3em;
+    max-height: 740px;*/
+
+}
+
+
+
+.title{
+    text-align: center;
+    color: #2980B9  ;
+}
+
+.written{
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+/* Catagories*/
+
+.catagories{
+    background-color: #0effff;
+}
+
+.catagories h2{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+
+
+}
+
+
+.catagories .tags {
+    margin: 30px;
+    list-style: none;
+}
+
+.catagories li{
+    /*display: inline;*/
+    float: left;
+    text-align: center;
+    padding: 0px 30px;
+    width: 33.3%;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.catagories li a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px;
+    color: #fff;
+    
+
+}
+
+
+/* Footer*/
+
+footer{
+    background-color: #ff870e;
+    padding: 5px;
+    margin-bottom: 0;
+    
+    
+
+}
+
+
+footer #copyright{
+    float: left;
+   
+}
+
+footer #ref{
+    padding-right: 20px;
+    text-align: right;
+}
